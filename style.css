@@ -1,0 +1,238 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@1,500&family=Karla:ital@1&family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    position: absolute;
+    background-color: rgb(194, 187, 187);
+    /*width: 254px;*/
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav{
+    padding: 39px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 18px;
+    padding: 25px 0px;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    /*  background-color: blueviolet;*/
+    width: 90vw;
+}
+
+.infoContainer{
+ /*  background-color: azure;*/
+ height: 60vh;
+ width: 80vw;
+ margin: 80px auto;
+ display: flex;
+ justify-content: space-around;
+}
+
+.devPic img
+{
+    height: 60vh;
+    width:45vh;
+}
+
+.devInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.hello{
+    font-weight: bold;
+    font-size: 54px;
+}
+
+.name{
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.about{
+    font-size: 27px;
+}
+
+.moreAbout{
+ font-size: 15px;
+ margin-top: 20px;
+}
+
+.button{
+    margin-top: 20px;
+}
+
+.btn{
+    cursor: pointer;
+    margin: 10px;
+    padding: 8px;
+    font-weight: bold;
+    border-radius: 14px;
+    color: white;
+    background-color: cornflowerblue;
+}
+
+.btn-sm{
+    font-size: 10px;
+    padding: 7px 14px;
+    margin: 12px 0;
+}
+
+.btn:hover{
+    color: cornflowerblue;
+    background-color: white;
+}
+.container{
+    display: flex;
+    font-family: 'Cormorant', serif;
+    font-family: 'Karla', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+.contactForm{
+    font-family: 'Cormorant', serif;
+    padding: 70px;
+}
+
+.contactForm h1{
+    font-family: 'Source Code Pro', monospace;
+    padding: 12px 0;
+}
+
+.contactForm form div{
+    display: flex;
+    flex-direction: column;
+    padding:5px 0;
+}
+
+.contactForm form div input{
+    width: 16vw;
+    border-radius: 5px;
+    margin: 6px 0;
+    padding: 3px
+}
+
+#emailHelp{
+    font-size: 10px;
+    padding: 0 4px;
+    color: midnightblue;
+}
+
+#form-check{
+    flex-direction: row;
+
+
+}
+
+#form-check-input{
+    width: 27px;
+    margin: 3px 0;
+}
+
+.blogItems{
+    margin: 20px;
+}
+.blogItems h2{
+    font-family: 'Cormorant', serif;
+}
+.blogItems p{
+    font-family: 'Source Code Pro', monospace;
+}
+
+.blogContainer h1{
+    margin: 20px;
+    font-family: 'Cormorant', serif;
+}
+
+.blogContainer{
+    margin: 50px;
+}
+
+.intro h2{
+    font-family: 'Source Code Pro', monospace;
+    margin: 10px;
+}
+
+.intro{
+    margin: 50px;
+}
+
+.skillContainer{
+    padding: 12px;
+}
+
+.skillItem{
+    display: flex;
+    align-items: center;
+}
+
+.skill{
+    width: 250px;
+    height: 6px;
+    background-color: midnightblue;
+    border: 2px solid black;
+}
+
+.hundred{
+    width: 250px;
+}
+
+.fifty{
+    width: 125px;
+    background-color: aqua;
+}
+
+.twenty{
+    width: 62px;
+    background-color: beige;
+}
+.intro p{
+    font-family: 'Cormorant', serif;
+    margin: 10px;
+}
+
+.hamburger{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    cursor: pointer;
+}
+
+@media (max-width:800px) {
+   * {
+        background-color: red;
+    }
+    .devPic{
+        display: none;
+    }
+    /*.sidebar{
+        transform: translate(-300px,0px);
+        position: absolute;
+    }*/
+}
+
+.cross{
+    margin-left: 131px;
+}
+
+.sidebarGo{
+    transform: translate(-300px,0px);
+    position: absolute;
+}
